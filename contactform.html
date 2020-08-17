@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Contact Form
+        </title>
+        <h1>Contact Form</h1>
+        <link rel="stylesheet" type="text/css"  href="contactform.css">
+
+    </head>
+    
+    
+        <form>
+        <p>Please fill in your information and we'll be sending your order in no time</p>
+    <div >
+        <label for="Name">Your Name : </label>
+        <input type="text" id="fname" name="Your-Name" placeholder="First-Name">
+        <input type="text" id="lname" name="Your-Name" placeholder="Last-Name">
+    </div>
+
+
+    <div >
+        <label for="Email">Your Email : </label>
+        <input type="email" id="email"  placeholder=" eg-xyz@gmail.com">
+    </div>
+
+    <div >
+        <label for="Phone*"> Phone* : </label>
+        <input type="number" id="phone" maxlength="10" placeholder="##########">
+    </div>
+
+
+
+    <div >
+        <label for="Message-Subject*">Message Subject* : </label>
+        <input type="text" id="message-subject" placeholder="other">
+    </div>
+
+<div >
+        <label for="Message*">Message*</label>
+        <input type="text" id="message" placeholder="Your message">
+    </div>
+
+<div>
+        
+        <button onclick="contactform()" type="button">Submit form</button>
+    </div>
+    </form>
+    <script src="contactform.js"></script>
+
+    </body>
+    
+</html>

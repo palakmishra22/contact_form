@@ -1,0 +1,41 @@
+body {
+    background-color: plum;
+
+}
+#name {
+    color: black;
+    margin-bottom:20px;
+    border-inline: 20px;
+}
+
+#email {
+    color: black;
+    margin-bottom: 20px;
+}
+#phone {
+    color: black;
+    margin-bottom: 20px;
+}    
+
+#IDNAME{
+    
+    width: 300px;
+    height: 50px;
+    border: 1px solid red;
+    padding: 50px;
+}
+
+#message-subject {
+    color: black;
+    margin-bottom: 20px;
+    
+}
+#message{
+    color: black;
+    margin-bottom: 20px;
+}
+body{
+    margin-left: 350px;
+    margin-right: 350px;
+    text-align: center;
+}
