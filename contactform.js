@@ -5,6 +5,15 @@ function contactform() {
     var email = document.getElementById("email").value;
     var phone = document.getElementById("phone").value;
     //var message = document.getElementById("message").value;
+    
+    if (fname == ""){
 
-    alert("  Your name is "+fname+" "+lname+" , email is "+email+" , phone is "+phone+" and your form is submitted ")
+        alert("please enter your name, name can't be blank")
+    }
+    else
+
+    
+
+
+    alert("  Your name is "+fname+" "+lname+" , email is "+email+" , phone is "+phone+" and your form is submitted ");
 }

@@ -13,32 +13,36 @@
         <form>
         <p>Please fill in your information and we'll be sending your order in no time</p>
     <div >
-        <label for="Name">Your Name : </label>
-        <input type="text" id="fname" name="Your-Name" placeholder="First-Name">
-        <input type="text" id="lname" name="Your-Name" placeholder="Last-Name">
+        <label for="Name">Your Name : </label>&nbsp;
+        <input type="text" id="fname" name="Your-Name"   placeholder="First-Name"  onkeypress= "return(event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123)"     required/>&nbsp;
+        <input type="text" id="lname" name="Your-Name" placeholder="Last-Name" required/>
     </div>
 
 
     <div >
-        <label for="Email">Your Email : </label>
-        <input type="email" id="email"  placeholder=" eg-xyz@gmail.com">
+        <label for="Email">Your Email : </label>&nbsp;
+        <input type="email" id="email"  placeholder="eg-xyz@gmail.com">
     </div>
 
     <div >
-        <label for="Phone*"> Phone* : </label>
-        <input type="number" id="phone" maxlength="10" placeholder="##########">
+        <label for="Phone*"> Phone* : </label>&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="number" id="phone" maxlength="10"  placeholder="##########" required/>
     </div>
 
 
 
     <div >
-        <label for="Message-Subject*">Message Subject* : </label>
-        <input type="text" id="message-subject" placeholder="other">
+        <label for="Message-Subject*">Message Subject* : </label>&nbsp;
+
+        <select name="message" id="Message-Subject">
+            <option>technical issue</option>
+            <option>others</option>
+        </select>
     </div>
 
 <div >
-        <label for="Message*">Message*</label>
-        <input type="text" id="message" placeholder="Your message">
+        <label for="Message*">Message* : </label>&nbsp;
+        <input type="text" id="message" placeholder="Your message" required/>
     </div>
 
 <div>

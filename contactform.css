@@ -1,41 +1,56 @@
 body {
-    background-color: plum;
+    background-color: wheat;
+    
 
 }
-#name {
+#fname {
     color: black;
-    margin-bottom:20px;
-    border-inline: 20px;
+    margin-bottom: 50px;
+}
+#lname {
+    color: black;
+    margin-bottom: 50px;
 }
 
 #email {
     color: black;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    
+    
+
+    
 }
 #phone {
     color: black;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }    
 
-#IDNAME{
+#message{
     
     width: 300px;
-    height: 50px;
-    border: 1px solid red;
-    padding: 50px;
+    height: 40px;
+    border: 1px solid black;
+    padding: 20px;
+    
 }
 
 #message-subject {
     color: black;
-    margin-bottom: 20px;
+    margin-bottom:50px ;
+     margin-bottom: 20px;
+    
     
 }
 #message{
     color: black;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    
 }
 body{
-    margin-left: 350px;
-    margin-right: 350px;
-    text-align: center;
+    margin-left: 750px;
+    border:5px solid black;
+    width: 500px;
+    height: 700px;
+    padding:20px ;
+    
 }
