@@ -8,12 +8,19 @@ function contactform() {
     
     if (fname == ""){
 
-        alert("please enter your name, name can't be blank")
+        alert("please enter your name, name can't be blank");
     }
-    else
+    else if (lname == ""){
+        alert("please enter your name , name can't be blank");
+    }
+    else {
+        alert("please enter only alphabets :-)");
+    }
 
-    
-
+    if (email = ""){
+        alert("please enter your email");
+    } 
+    else   
 
     alert("  Your name is "+fname+" "+lname+" , email is "+email+" , phone is "+phone+" and your form is submitted ");
 }
