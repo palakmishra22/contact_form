@@ -14,8 +14,8 @@
         <p>Please fill in your information and we'll be sending your order in no time</p>
     <div >
         <label for="Name">Your Name : </label>&nbsp;
-        <input type="text" id="fname" name="Your-Name"   placeholder="First-Name"  onkeypress= "return(event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123)"     required/>&nbsp;
-        <input type="text" id="lname" name="Your-Name" placeholder="Last-Name" required/>
+        <input type="text" id="fname" name="Your-Name"  placeholder="First-Name"  onkeyup="lettersOnly(this)" required/>
+        <input type="text" id="lname" name="Your-Name" placeholder="Last-Name" onkeyup="lettersOnly(this)" required/>
     </div>
 
 

@@ -13,14 +13,19 @@ function contactform() {
     else if (lname == ""){
         alert("please enter your name , name can't be blank");
     }
-    else {
-        alert("please enter only alphabets :-)");
-    }
+    
+    
 
     if (email = ""){
         alert("please enter your email");
     } 
-    else   
+     
 
     alert("  Your name is "+fname+" "+lname+" , email is "+email+" , phone is "+phone+" and your form is submitted ");
+}
+   
+function lettersOnly(input){
+    var regex = /[^a-z]/gi ;
+    input.value = input.value.replace(regex , "");
+
 }
